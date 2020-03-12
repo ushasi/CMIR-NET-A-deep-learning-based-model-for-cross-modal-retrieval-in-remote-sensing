@@ -8,3 +8,11 @@ CMIR-NET : A deep learning based model for cross-modal retrieval in remote sensi
 
 Ushasi Chaudhuri, Biplab Banerjee, Avik Bhattacharya, Mihai Datcu. In Pattern Recognition Letters
 Volume 131, March 2020, Pages 456-462. (https://doi.org/10.1016/j.patrec.2020.02.006)
+
+
+
+
+In this work we have experimented on {Panchromatic satellite data, Multispectral satellite data} and {RGB image, speech} cross data. To implement these, go to the corrosponding sub-folder:
+1. Run the pretraining codes for both the modalities and save the features in a .mat file.
+2. Run Unified_XY.py. This saves a unified.mat file which stores the latent-space features for both the modalities.
+3. Use the MATLAB KNNcode.m to find the top $k$-nn retrieved data (using simple Eucledean distance).
