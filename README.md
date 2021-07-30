@@ -20,7 +20,7 @@ In this work we have experimented on {Panchromatic satellite data, Multispectral
 *   If you find this code useful, please cite the following paper:
 
 ```
-@InProceedings{Chaudhuri_2020_CVPR_Workshops,
+@InProceedings{Chaudhuri_2020_cmirnet,
 author = {Chaudhuri, Ushasi and Banerjee, Biplab and Bhattacharya, Avik and Datcu, Mihai},
 title = {CMIR-NET : A deep learning based model for cross-modal retrieval in remote sensing},
 booktitle = {In Pattern Recognition Letters},
